@@ -175,7 +175,7 @@ const CONFIG = {
                 {
                     name: 'EMBL-EBI',
                     link: 'https://www.youtube.com/user/EBImedia',
-                }
+                },
 				{
 					name: 'Swiss Institute of Bioinformatics',
                     link: 'https://www.youtube.com/c/SIBSwissInstituteofBioinformatics',
