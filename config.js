@@ -59,33 +59,39 @@ const CONFIG = {
 		},
 		{
 			id: '2',
+			name: "StackOverflow",
+			icon: "bug",
+			link: 'https://stackoverflow.com',
+		},
+		{
+			id: '3',
+			name: 'Biostars',
+			icon: 'laugh',
+			link: 'https://biostars.org',
+		},
+		{
+			id: '4',
 			name: 'Mail',
 			icon: 'mail',
 			link: 'https://gmail.com/',
 		},
 		{
-			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			id: '5',
+			name: 'Mail',
+			icon: 'mail',
+			link: 'https://outlook.office365.com/mail',
 		},
 		{
-			id: '4',
+			id: '6',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
-			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
-		},
-		{
-			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			id: '7',
+			name: 'Calendar',
+			icon: 'calendar',
+			link: 'https://outlook.office.com/calendar/view/month',
 		},
 	],
 
@@ -98,33 +104,21 @@ const CONFIG = {
 		},
 		{
 			id: '2',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com',
+		},
+		{
+			id: '2',
 			name: 'twitter',
 			icon: 'twitter',
 			link: 'https://twitter.com/',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Reddit',
+			icon: 'reddit',
+			link: 'https://www.reddit.com',
 		},
 	],
 
@@ -135,12 +129,12 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'course',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '野居青年Country Boys Official Channel',
+					link: 'https://www.youtube.com/channel/UCeQYA2HCY1OIJXrCLSmylEg',
 				},
 				{
 					name: 'Classic',
@@ -194,14 +188,6 @@ const CONFIG = {
 					name: 'Reddit',
 					link: 'https://www.reddit.com',
 				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
 			],
 		},
 		{
@@ -209,20 +195,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Emacs',
+					link: 'https://www.reddit.com/r/emacs/',
 				},
 				{
 					name: 'Rust',
 					link: 'https://www.reddit.com/r/rust/',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'Archlinux',
+					link: 'https://www.reddit.com/r/archlinux/',
 				},
 				{
 					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					link: 'https://github.com/alienzj',
 				},
 			],
 		},
