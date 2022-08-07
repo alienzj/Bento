@@ -59,41 +59,47 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: "StackOverflow",
-			icon: "bug",
-			link: 'https://stackoverflow.com',
-		},
-		{
-			id: '3',
-			name: 'Biostars',
-			icon: 'laugh',
-			link: 'https://biostars.org',
-		},
-		{
-			id: '4',
 			name: 'Mail',
 			icon: 'mail',
 			link: 'https://gmail.com/',
 		},
-		{
-			id: '5',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://outlook.office365.com/mail',
-		},
-		{
-			id: '6',
+	    {
+			id: '3',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
 		},
-		{
-			id: '7',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://outlook.office.com/calendar/view/month',
+	    //{
+		//	id: '4',
+		//	name: 'Mail',
+		//	icon: 'mail',
+		//	link: 'https://outlook.office365.com/mail',
+		//},
+		//{
+		//	id: '5',
+		//	name: 'Calendar',
+		//  icon: 'calendar',
+		//	link: 'https://outlook.office.com/calendar/view/month',
+		//},
+	    {
+			id: '4',
+			name: "PubMed",
+			icon: "library",
+			link: 'https://www.ncbi.nlm.nih.gov/',
 		},
-	],
+		{
+			id: '5',
+			name: 'Biostars',
+			icon: 'help-circle',
+			link: 'https://biostars.org',
+		},
+        {
+            id: '6',
+            name: 'Galaxy',
+            icon: 'graduation-cap',
+            link: 'https://training.galaxyproject.org/',
+        },
+],
 
 	secondButtonsContainer: [
 		{
@@ -129,7 +135,7 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'course',
+			icon: 'music',
 			id: '1',
 			links: [
 				{
@@ -137,16 +143,16 @@ const CONFIG = {
 					link: 'https://www.youtube.com/channel/UCeQYA2HCY1OIJXrCLSmylEg',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Machine Learning Course',
+					link: 'https://www.youtube.com/c/HungyiLeeNTU'
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'BBC Learning English',
+					link: 'https://www.youtube.com/c/bbclearningenglish',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'MIT OpenCourseWare',
+					link: 'https://www.youtube.com/c/mitocw',
 				},
 			],
 		},
@@ -155,20 +161,24 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Reddit',
+					link: 'https://www.reddit.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'OpenRice',
+					link: 'https://www.openrice.com/en/hongkong',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: '小约翰可汗',
+					link: 'https://www.youtube.com/channel/UCAeIZxbLS06qOpBTAGT1qxA',
 				},
+                {
+                    name: 'EMBL-EBI',
+                    link: 'https://www.youtube.com/user/EBImedia',
+                }
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Swiss Institute of Bioinformatics',
+                    link: 'https://www.youtube.com/c/SIBSwissInstituteofBioinformatics',
 				},
 			],
 		},
