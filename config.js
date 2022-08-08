@@ -58,17 +58,23 @@ const CONFIG = {
 			link: 'https://github.com/alienzj',
 		},
 		{
-			id: '2',
+			id: '3',
 			name: 'Mail',
 			icon: 'mail',
 			link: 'https://gmail.com/',
 		},
 	    {
-			id: '3',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			id: '6',
+			name: 'HKUlib',
+			icon: 'book-open',
+			link: 'https://www.lib.hku.hk/',
 		},
+	    //{
+		//	id: '3',
+		//	name: 'Calendar',
+		//	icon: 'calendar',
+		//	link: 'https://calendar.google.com/calendar/r',
+		//},
 	    //{
 		//	id: '4',
 		//	name: 'Mail',
@@ -88,13 +94,13 @@ const CONFIG = {
 			link: 'https://www.ncbi.nlm.nih.gov/',
 		},
 		{
-			id: '5',
+			id: '2',
 			name: 'Biostars',
 			icon: 'help-circle',
 			link: 'https://biostars.org',
 		},
         {
-            id: '6',
+            id: '5',
             name: 'Galaxy',
             icon: 'graduation-cap',
             link: 'https://training.galaxyproject.org/',
@@ -139,12 +145,12 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: '野居青年Country Boys Official Channel',
+					name: 'Country Boys Official Channel',
 					link: 'https://www.youtube.com/channel/UCeQYA2HCY1OIJXrCLSmylEg',
 				},
 				{
-					name: 'Machine Learning Course',
-					link: 'https://www.youtube.com/c/HungyiLeeNTU'
+					name: 'Open spotify',
+			        link: 'https://open.spotify.com',
 				},
 				{
 					name: 'BBC Learning English',
@@ -160,6 +166,14 @@ const CONFIG = {
 			icon: 'coffee',
 			id: '2',
 			links: [
+                {
+                    name: 'Twitter',
+                    link: 'https://twitter.com',
+                },
+                {
+                    name: 'Youtube',
+                    link: 'https://www.youtube.com',
+                },
 				{
 					name: 'Reddit',
 					link: 'https://www.reddit.com',
@@ -168,18 +182,18 @@ const CONFIG = {
 					name: 'OpenRice',
 					link: 'https://www.openrice.com/en/hongkong',
 				},
-				{
-					name: '小约翰可汗',
-					link: 'https://www.youtube.com/channel/UCAeIZxbLS06qOpBTAGT1qxA',
-				},
-                {
-                    name: 'EMBL-EBI',
-                    link: 'https://www.youtube.com/user/EBImedia',
-                },
-				{
-					name: 'Swiss Institute of Bioinformatics',
-                    link: 'https://www.youtube.com/c/SIBSwissInstituteofBioinformatics',
-				},
+				//{
+				//	name: '小约翰可汗',
+				//	link: 'https://www.youtube.com/channel/UCAeIZxbLS06qOpBTAGT1qxA',
+				//},
+                //{
+                //    name: 'EMBL-EBI',
+                //    link: 'https://www.youtube.com/user/EBImedia',
+                //},
+				//{
+				//	name: 'Swiss Institute of Bioinformatics',
+                //    link: 'https://www.youtube.com/c/SIBSwissInstituteofBioinformatics',
+				//},
 			],
 		},
 	],
